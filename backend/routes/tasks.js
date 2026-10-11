@@ -1,4 +1,5 @@
 // routes/tasks.js - REST API for tasks (mounted at /api/tasks)
+// Task routes: handles all CRUD operations for /api/tasks
 const express = require("express");
 const mongoose = require("mongoose");
 const Task = require("../models/Task");
